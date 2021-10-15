@@ -44,14 +44,14 @@ public class PetServiceTest {
 
 	@Parameters
 	public static Collection<Object[]> pets() {
-//		cat = new Pet();
-//		cat.setName("cat");
-//
-//		dog = new Pet();
-//		dog.setName("dog");
-//
-//		hamster = new Pet();
-//		hamster.setName("hamster");
+		cat = new Pet();
+		cat.setName("cat");
+
+		dog = new Pet();
+		dog.setName("dog");
+
+		hamster = new Pet();
+		hamster.setName("hamster");
 
 		return Arrays.asList (new Object [][]{
 			{1, cat},
